@@ -1,0 +1,138 @@
+/* 전공진입_수정ver */
+
+body{position: relative;
+width: 1440px;
+/*height: 1300px;*/
+height : 1024px+561px+418px;
+margin:0px;
+background: #E6E6E6;}
+
+article{
+    position:absolute; 
+    top : 561px;
+    width: 1440px;
+    height: 1024px;
+    overflow:scroll;
+}
+
+/* 전공진입 */
+
+#title{position: absolute;
+width: 479px;
+height: 117px;
+left: 481px;
+top: 82px;
+
+font-family: 'Inter';
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+
+color: #000000;}
+
+
+
+/* 글로벌융합학부 원전공(1전공) 진입 */
+
+#sub1{position: absolute;
+width: 399px;
+height: 43px;
+left: 82px;
+top: 199px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;}
+
+
+
+/* 원전공 진입 신청대상 */
+
+#sub2{position: absolute;
+width: 399px;
+height: 43px;
+left: 82px;
+top: 435px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;}
+
+
+
+/* 원전공 진입 신청방법 */
+
+#sub3{position: absolute;
+width: 399px;
+height: 43px;
+left: 82px;
+top: 850px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;}
+
+
+
+/*contents1*/
+
+#con1{position: absolute;
+width: 1250px;
+height: 177px;
+left: 108px;
+top: 242px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 28px;
+
+color: #000000;}
+
+
+/*contents2*/
+
+#con2{position: absolute;
+width: 1250px;
+height: 286px;
+left: 108px;
+top: 478px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 28px;
+
+color: #000000;}
+
+/*contents3*/
+
+#con3{position: absolute;
+width: 1250px;
+height: 286px;
+left: 105px;
+top: 880px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 28px;
+
+color: #000000;}
+

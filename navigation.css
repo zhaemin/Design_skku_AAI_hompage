@@ -1,0 +1,152 @@
+/* About Header */
+
+nav{
+position: absolute;
+width: 1440px;
+height: 561px;
+top:0px; 
+
+background: #E5E5E5;
+border-radius: 2px;}
+
+/* APPLIED ARTIFICIAL INTELLIGENCE */
+
+#aai{position: absolute;
+width: 239px;
+height: 17px;
+left: 109px;
+top: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+letter-spacing: -0.03em;
+
+color: #000000;}
+
+/* ABOUT */
+
+#about{
+    transition : text-shadow .3s;
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 740px;
+    top: 56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;}
+
+
+#about:hover {
+    
+    text-shadow: 0 0 20px rgb(51, 68, 72); 
+  }
+    
+    
+/* PEOPLE */
+    
+#people{
+    transition : text-shadow .3s;
+    position: absolute;
+    width: 95px;
+    height: 43px;
+    left: 1031px;
+    top: 56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;}
+    
+#people:hover {
+    
+        text-shadow: 0 0 20px rgb(51, 68, 72); 
+      }
+    
+/* NEWS */
+    
+#news{
+    transition : text-shadow .3s;
+    position: absolute;
+    width: 73px;
+    height: 43px;
+    left: 1153px;
+    top: 56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;}
+    
+#news:hover {
+    
+        text-shadow: 0 0 20px rgb(51, 68, 72); 
+      }  
+    
+/* RESEARCH */
+    
+    #research{
+    transition : text-shadow .3s;    
+    position: absolute;
+    width: 131px;
+    height: 36px;
+    left: 1253px;
+    top: 56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;}
+    
+#research:hover {
+    
+        text-shadow: 0 0 20px rgb(51, 68, 72); 
+      }    
+    
+/* ACADEMICS */
+    
+#academics{
+    transition : text-shadow .3s;
+    position: absolute;
+    width: 147px;
+    height: 43px;
+    left: 857px;
+    top: 56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;}
+    
+    
+#academics:hover {
+    
+        text-shadow: 0 0 20px rgb(51, 68, 72); 
+      }     
+

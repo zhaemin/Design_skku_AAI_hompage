@@ -1,0 +1,53 @@
+/*학사일정*/
+
+/*배경*/
+body{position: relative;
+  width: 1440px;
+  height: 2003px;
+  margin:0px; 
+  background: #E5E5E5;}
+
+/*본문*/
+article{
+    position:absolute; 
+    top : 561px;
+    width: 1440px;
+    height: 1024px;
+    overflow:scroll;
+}
+
+/*페이지 제목*/
+#title{position: absolute;
+  width: 479px;
+  left: 481px;
+  top: 82px;
+  
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 61px;
+  text-align: center;
+  
+    color: #000000;}
+
+/*테이블 css 설정*/
+table {
+    position: absolute;
+    border-collapse: collapse;
+    width: 80%;
+    top: 200px;
+    left: 140px;
+    align-items:center;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  
+  th {
+    background-color: #B7C2C2;
+  }
+

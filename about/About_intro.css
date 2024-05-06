@@ -1,0 +1,43 @@
+/* 해민 - About  - 학부 소개 */
+
+body{
+margin:0px;
+position: absolute;
+width: 1440px;
+height: 1000px; /*헤더+본문+푸터*/
+
+}
+/*본문*/
+article { 
+    background: linear-gradient(180deg, rgb(233, 233, 233) 0%, rgba(0,0,0,1) 7%);
+    position:absolute; 
+    top : 540px;
+    width: 1440px;
+    height: 3000px;
+}
+
+/*배경*/
+.card-background{
+    height: 2500px;
+    margin-top: 30px;
+}
+
+/*이미지 파일*/
+.card-box img{
+    display: block;
+    margin: auto;
+    max-width: 95%;
+}
+
+/*카드 위치 설정*/
+.card-box{
+    position: sticky;
+    margin-top: 200px;
+    transition: all 0.3s;
+}
+
+.card-box front{
+    position: sticky;
+    top: 50px;
+    transition: all 0.3s;
+}

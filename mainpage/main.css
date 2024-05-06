@@ -1,0 +1,596 @@
+/* 새연 - Main */
+
+body{position: relative;
+width: 1440px;
+height: 1024px;
+margin: 0px; 
+background: #000F10;}
+
+.menu-item .submenu {
+  border-radius: 30px;
+  display: none;
+  background-color: #000F10;
+  position:absolute;
+  padding: 10px;
+  z-index: 1;
+  width:100px;
+  text-align:center;
+  opacity: 0.9;
+  border: 3px solid #FFFFFF;}
+
+.menu-item .submenu a {
+  display: block;
+  color: #FFFFFF;
+  padding: 5px;
+}
+/* ABOUT 메뉴 아이템 서브메뉴 위치 */
+#submenu-about{
+  position: absolute;
+  left: 725px;
+  top: 90px;
+}
+
+
+/* ACADEMICS 메뉴 아이템 서브메뉴 위치 */
+#submenu-academics {
+  position: absolute;
+  left: 870px;
+  top: 90px;
+}
+
+/* PEOPLE 메뉴 아이템 서브메뉴 위치 */
+#submenu-ppl {
+  position: absolute;
+  left: 1016px;
+  top: 90px;
+}
+
+/* NEWS 메뉴 아이템 서브메뉴 위치 */
+#submenu-news {
+  position: absolute;
+  left: 1128px;
+  top : 90px;
+}
+
+/* RESEARCH 메뉴 아이템 서브메뉴 위치 */
+#submenu-research {
+  position: absolute;
+  left: 1258px;
+  top: 90px; 
+}
+
+/* 호버 시 서브메뉴 표시 */
+.menu-item {
+  position: relative;
+}
+
+.menu-item:hover .submenu {
+  display: block;
+}
+
+
+
+
+/* Rectangle 1 */
+
+#box1{
+transition: box-shadow .3s; 
+position: absolute;
+width: 660px;
+height: 231px;
+left: 35px;
+top: 763px;
+
+background: rgba(54, 54, 54, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;}
+
+#box1:hover {
+    box-shadow: 0 0 30px rgb(144, 166, 168); 
+  }
+
+
+/* Rectangle 2 */
+
+#box2{
+transition: box-shadow .3s; 
+position: absolute;
+width: 660px;
+height: 231px;
+left: 742px;
+top: 763px;
+
+background: rgba(54, 54, 54, 0.5);
+border-radius: 30px;}
+
+#box2:hover {
+    box-shadow: 0 0 30px rgb(144, 166, 168); 
+  }
+
+
+
+/* Sungkyunkwan University Applied Artificial Intelligence */
+
+h1{
+
+position: absolute;
+width: 871px;
+height: 122px;
+left: 172px;
+top: 408px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+/* Announcement */
+
+#announcement{position: absolute;
+width: 351px;
+height: 32px;
+left: 75px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+color: #FFFFFF;}
+
+
+
+/* MORE > */
+
+#more1{
+transition: text-shadow .3s; 
+position: absolute;
+width: 104px;
+height: 27px;
+left: 591px;
+top: 796px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;}
+
+#more1:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255); 
+  }
+    
+
+
+
+/* MORE > */
+
+#more2{
+transition: text-shadow .3s;     
+position: absolute;
+width: 104px;
+height: 27px;
+left: 1293px;
+top: 796px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;}
+
+#more2:hover {
+    
+    text-shadow: 0 0 20px rgba(255, 255, 255); 
+  }
+
+
+/* Research */
+
+#research2{position: absolute;
+width: 351px;
+height: 32px;
+left: 788px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+color: #FFFFFF;}
+
+
+
+/* 인류와 미래사회를 위한 담대한 도전 Inspiring Future, Grand Challenge */
+
+#explanation{position: absolute;
+width: 676px;
+height: 41px;
+left: 35px;
+top: 573px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+letter-spacing: 0.3em;
+
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.blink {
+  color: #FFFFFF;
+  animation: blink 0.5s infinite;
+  font-size: 1.5rem;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+
+/* Line 1 */
+
+#line1{position: absolute;
+width: 595px;
+height: 0px;
+left: 64px;
+top: 828px;
+
+border: 2px solid #FFFFFF;}
+
+
+/* Line 2 */
+
+#line2{position: absolute;
+width: 595px;
+height: 0px;
+left: 775px;
+top: 828px;
+
+border: 2px solid #FFFFFF;}
+
+
+/* Rectangle 18 */
+
+#learnmore{
+transition: box-shadow .3s;     
+position: absolute;
+width: 165px;
+height: 35px;
+left: 35px;
+top: 632px;
+border:none;
+background: #FFFFFF;
+border-radius: 40px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;}
+
+#learnmore:hover {
+    box-shadow: 0 0 30px rgb(144, 166, 168); 
+  }
+
+
+
+/* 로고화이트 1 */
+
+#logoaai
+{
+position: absolute;
+width: 135px;
+height: 135px;
+left: 35px;
+top: 438px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+#aai{position: absolute;
+    width: 207px;
+    height: 17px;
+    left: 112px;
+    top: 89px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;}
+    
+
+
+
+/* 내비게이션 바*/
+
+
+
+/* ABOUT */
+
+#about{
+transition: text-shadow .3s;    
+position: absolute;
+width: 90px;
+height: 36px;
+left: 740px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;}
+
+
+
+#about:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255); 
+  }
+
+
+
+/* PEOPLE */
+
+#people{
+transition: text-shadow .3s;        
+position: absolute;
+width: 95px;
+height: 43px;
+left: 1031px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;}
+
+
+#people:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255); 
+  }
+
+
+/* NEWS */
+
+#news{
+transition: text-shadow .3s;        
+position: absolute;
+width: 73px;
+height: 43px;
+left: 1153px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;}
+
+#news:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255); 
+  }
+
+
+/* RESEARCH */
+
+#research{
+transition: text-shadow .3s;        
+position: absolute;
+width: 131px;
+height: 36px;
+left: 1253px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;}
+
+#research:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255); 
+  }
+
+/* ACADEMICS */
+
+#academics{
+transition: text-shadow .3s;        
+position: absolute;
+width: 147px;
+height: 43px;
+left: 857px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;}
+
+#academics:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255); 
+  }
+    
+
+#anncontent1{
+  /* [행사/세미나] [고용노동부] 청년 AI 혁신 가드닝 프로그램 학생 ... */
+
+position: absolute;
+width: 540px;
+height: 24px;
+left: 91px;
+top: 855px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+}
+
+#anncontent2{
+/* [학사] 2023학년도 1학기 기말강의평가 시행 안내 (5. 22.(월) ... */
+
+position: absolute;
+width: 541px;
+height: 24px;
+left: 91px;
+top: 897px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+
+#anncontent3{
+  /* [공고] 2023-1학기 인공지능융합전공 학생자치 스터디그룹 모집 */
+
+position: absolute;
+width: 534px;
+height: 24px;
+left: 91px;
+top: 939px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+}
+
+#rescontent1{
+/* 김장현 글로벌융합학부장, 「문과생을 위한 인공지능입문」 출간 */
+
+position: absolute;
+width: 534px;
+height: 24px;
+left: 798px;
+top: 855px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+
+#rescontent2{
+/* 글로벌융합학부 김장현 학부장, '융합은 용기다' 기고 */
+
+position: absolute;
+width: 429px;
+height: 24px;
+left: 798px;
+top: 897px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+}
+
+#rescontent3{
+  /* 김재광 교수 연구실(main Lab.)의 추천 시스템 모델 연구 SIGIR 2023 채택 */
+
+position: absolute;
+width: 625px;
+height: 24px;
+left: 798px;
+top: 939px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+
+
+}
+
+#anncontent1:hover {
+  text-shadow: 0 0 10px rgb(144, 166, 168); 
+}
+#anncontent2:hover {
+  text-shadow: 0 0 10px rgb(144, 166, 168); 
+}
+#anncontent3:hover {
+  text-shadow: 0 0 10px rgb(144, 166, 168); 
+}
+#rescontent1:hover {
+  text-shadow: 0 0 10px rgb(144, 166, 168); 
+}
+#rescontent2:hover {
+  text-shadow: 0 0 10px rgb(144, 166, 168); 
+}
+#rescontent3:hover {
+  text-shadow: 0 0 10px rgb(144, 166, 168); 
+}

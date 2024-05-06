@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="footermain.css">
+        <title>성균관대학교 인공지능융합전공</title>
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="mainpage/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="./main.html">
+            <img src='../css/성대로고.png' 
+            style="position: absolute;
+            width: 235px;
+            height: 63px;
+            left: 93px;
+            top: 43px;">
+
+            <img src="../css/성대로고2.png"
+            style='position: absolute;
+            width: 80px;
+            height: 77px;
+            left: 29px;
+            top: 43px;'>
+
+            <span id="aai">APPLIED ARTIFICIAL INTELLIGENCE</span></a>
+        </header>
+        <div class="menu-item">
+          <a href="../about/About_intro.html">
+            <span id="about">ABOUT</span>
+          </a>
+          <div class="submenu" id="submenu-about">
+            <a href="../about/About_intro.html">학부소개</a>
+            <a href="../about/About_edu.html">전공진입</a>
+          </div>
+        </div>
+        
+        <div class="menu-item">
+          <a href="../academics/Academics_time.html">
+            <span id="academics">ACADEMICS</span>
+          </a>
+          <div class="submenu" id="submenu-academics">
+            <a href="../academics/Academics_time.html">학사일정</a>
+            <a href="../academics/Academics_process.html">교육과정</a>
+          </div>
+        </div>
+        
+        <div class="menu-item">
+          <a href="../people/Faculty.html">
+            <span id="people">PEOPLE</span>
+          </a>
+          <div class="submenu" id="submenu-ppl">
+            <a href="../people/Faculty.html">교수진</a>
+            <a href="../people/Students.html">학생소개</a>
+          </div>
+        </div>
+        
+        <div class="menu-item">
+          <a href="../news/Notice.html">
+            <span id="news">NEWS</span>
+          </a>
+          <div class="submenu" id="submenu-news">
+            <a href="../news/Notice.html">공지사항</a>
+          </div>
+        </div>
+        
+        <div class="menu-item">
+          <a href="../research/Research.html">
+            <span id="research">RESEARCH</span>
+          </a>
+          <div class="submenu" id="submenu-research">
+            <a href="../research/Research.html">연구논문</a>
+            <a href="../research/Project.html">프로젝트</a>
+          </div>
+        </div>
+  
+          
+
+        <section>
+            <article>
+                
+                <video 
+                style="position: relative; width: 1440px; height: 100%; left: 0px; top: 137px;
+                object-fit: cover; opacity:0.7;"
+
+                src="./-891.mp4"
+                type="video/mp4" loop autoplay muted ></video>
+                
+                <img id="logoaai" src="../css/로고화이트.png">
+                <h1>Sungkyunkwan University <br>
+                    Applied Artificial Intelligence</h1>
+                
+                <div id="explanation">
+                <span class="text"></span><span class="blink">|</span>
+                </div>
+                <script>
+                    const content = "인류와 미래사회를 위한 담대한 도전 Inspiring Future, Grand Challenge";
+                    const text = document.querySelector(".text");
+                    let i = 0;
+                    
+                    function typing(){
+                        let txt = content[i++];
+                        text.innerHTML += txt;
+                        if (i > content.length) {
+                            text.textContent = "";
+                            i = 0;
+                        }
+                    }
+                    setInterval(typing, 200)
+                </script>
+                <a href="../about/About_intro.html">
+                <button id="learnmore">LEARN MORE</button></a>
+
+                
+                <span id="box1"></span>
+                <span id="line1"></span>
+                <a href="../news/Notice.html">
+                <span id="more1">MORE ></span></a>
+                <span id="announcement">ANNOUNCEMENT</span> 
+                <a href="https://sco.skku.edu/sco/community/notice.do?mode=view&articleNo=157090&article.offset=0&articleLimit=10">
+                <span id="anncontent1">[행사/세미나] [고용노동부] 청년 AI 혁신 가드닝 프로그램 학생...</span></a>
+                <a href="https://sco.skku.edu/sco/community/notice.do?mode=view&articleNo=157028&article.offset=0&articleLimit=10">
+                <span id="anncontent2">[학사] 2023학년도 1학기 기말강의평가 시행 안내 (5. 22.(월) 1...</span></a>
+                <a href="https://sco.skku.edu/sco/community/major_info.do?mode=view&articleNo=148063&article.offset=0&articleLimit=10">
+                <span id="anncontent3">[공고] 2023-1학기 인공지능융합전공 학생자치 스터디그룹 모집</span></a>
+
+                <span id="box2"></span>
+                <span id="line2"></span>
+                <a href="../research/Research.html">
+                <span id="more2">MORE ></span></a>
+                <span id="research2">RESEARCH</span>
+                <a href="https://www.skku.edu/skku/campus/skk_comm/news.do?mode=view&articleNo=105739">
+                <span id="rescontent1">김장현 글로벌융합학부장, 「문과생을 위한 인공지능입문」 출간</span></a>
+                <a href="https://sco.skku.edu/sco/community/news.do?mode=view&articleNo=149821&article.offset=0&articleLimit=10">
+                <span id="rescontent2">글로벌융합학부 김장현 학부장, '융합은 용기다' 기고</span></a>
+                <a href="https://sco.skku.edu/sco/community/news.do?mode=view&articleNo=149675&article.offset=0&articleLimit=10">
+                    <span id="rescontent3">김재광 교수 연구실(main Lab.)의 추천 시스템 모델 연구 SIGI...</span></a>
+
+            </article>
+        </section>
+        <footer>
+            <div class="footerdiv">
+    
+                <img style="position: absolute;
+                width: 235px;
+                height: 63px;
+                left: 100px;
+                top: 30px;" src='../css/성대로고.png'>
+
+                <img style="position: absolute;
+                width: 80px;
+                height: 77px;
+                left: 30px;
+                top: 36px;" src="../css/성대로고2.png">
+
+                <span id="footerlogo">APPLIED ARTIFICIAL INTELLIGENCE</span>
+
+                <span id="member1">
+                    Member : 황새연 <br>
+                    Major : Applied Artificial Intelligence <br>
+                    Grade :  Senior <br>
+                    Github : hwangsaeyeon 
+                </span>
+                <span id="member2">
+                    Member : 신현주 <br>
+                    Major : Applied Artificial Intelligence <br>
+                    Grade : Junior <br> 
+                    Github : tlsguswn1024
+                </span>
+                <span id="member3">
+                    Member : 이해민 <br>
+                    Major : Applied Artificial Intelligence <br>
+                    Grade : Junior <br>
+                    Github : lhm5239
+                </span>
+
+                <span id="copyright">Sung Kyun Kwan University © 2023. All rights reserved.</span>
+            </div>
+            
+        </footer>
+    </body>
+</html>
+

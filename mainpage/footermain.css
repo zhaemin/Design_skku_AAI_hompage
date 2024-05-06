@@ -1,0 +1,109 @@
+/**FOOTER**/
+
+.footerdiv{
+    box-sizing: border-box;
+    
+    width: 1440px;
+    height: 418px;
+    top: 1024px;
+    
+    position:absolute; bottom:0px; 
+    
+    background: #071B1F
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;}
+    
+/* APPLIED ARTIFICIAL INTELLIGENCE */
+
+#footerlogo{position: absolute;
+    width: 239px;
+    height: 17px;
+    left: 116px;
+    top: 79px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;}
+    
+    
+    /* Member : 황새연 Major : Applied Artificial Intelligence Grade : Senior Github : hwangsaeyeon */
+    
+    #member1{position: absolute;
+    width: 195px;
+    height: 68px;
+    left: 45px;
+    top: 127px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.08em;
+    
+    color: #FFFFFF;}
+    
+    
+    
+    /* Member : 이해민 Major : Applied Artificial Intelligence Grade : Junior Github : lhm5239 */
+    
+    #member3{position: absolute;
+    width: 195px;
+    height: 68px;
+    left: 45px;
+    top: 279px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.08em;
+    
+    color: #FFFFFF;}
+    
+    
+    
+    /* Member : 신현주 Major : Applied Artificial Intelligence Grade : Junior Github : tlsguswn1024 */
+    
+    #member2{position: absolute;
+    width: 195px;
+    height: 68px;
+    left: 45px;
+    top: 203px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.08em;
+    
+    color: #FFFFFF;}
+    
+    
+    
+    /* Sung Kyun Kwan University © 2023. All rights reserved. */
+    
+    #copyright{position: absolute;
+    width: 308px;
+    height: 17px;
+    left: 45px;
+    top: 370px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: -0.08em;
+    
+    color: #FFFFFF;}
+    

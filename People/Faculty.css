@@ -1,0 +1,1596 @@
+/* 현주 - People - 교수진 */
+
+body{
+margin:0px;
+position: absolute;
+width: 1440px;
+height: 1024px+561px+418px; /*헤더+본문+푸터*/
+background: #E6E6E6;
+}
+
+article{position: relative;
+    width: 1440px;
+    height: 1024px;
+    top:561px; 
+    overflow: scroll;
+}
+
+
+/* 교수진 */
+
+h1{position: absolute;
+width: 156px;
+height: 52px;
+left: 651px;
+top: 98px;
+
+font-family: 'Inter';
+font-weight: 900;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+
+color: #000000;}
+
+
+/* Faculty */
+
+h5{position: absolute;
+width: 69px;
+height: 24px;
+left: 694px;
+top: 163px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;}
+
+
+
+
+
+/* 가야 교수님 사진*/
+
+#box1{position: absolute;
+width: 272px;
+height: 374px;
+left: 179px;
+top: 321px;
+
+background: #D9D9D9;}
+
+
+/* 부교수 | 인공지능, 데이터사이언스 */
+
+#position1{position: absolute;
+width: 323px;
+height: 25px;
+left: 179px;
+top: 705px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #787474;}
+
+
+/* 가야트리나다라잔 */
+
+#name1{position: absolute;
+width: 300px;
+height: 42px;
+left: 178px;
+top: 730px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* gaya@skku.edu */
+
+#email1{position: absolute;
+width: 193px;
+height: 24px;
+left: 215px;
+top: 794px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #000000;}
+
+
+
+/* 교수회관 4층 40401호실 */
+
+#location1{position: absolute;
+width: 193px;
+height: 24px;
+left: 215px;
+top: 824px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+/* [관심분야] */
+
+#int1{position: absolute;
+width: 232px;
+height: 26px;
+left: 179px;
+top: 869px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+color: #333232;}
+
+
+/* : 머신러닝, 강화학습 */
+
+#int_content1{position: absolute;
+width: 226px;
+height: 57px;
+left: 180px;
+top: 897px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;}
+
+
+
+
+
+/* 고영만 교수님 사진 */
+
+#box2{position: absolute;
+width: 272px;
+height: 374px;
+left: 593px;
+top: 321px;
+
+background: #D9D9D9;}
+
+
+/* 교수 | 정보학 */
+
+#position2{position: absolute;
+width: 271px;
+height: 25px;
+left: 594px;
+top: 705px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #787474;}
+
+
+/* 고영만 */
+
+#name2{position: absolute;
+width: 114px;
+height: 42px;
+left: 592px;
+top: 730px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* 02-760-0329 */
+
+#phone2{position: absolute;
+width: 238px;
+height: 20px;
+left: 633px;
+top: 794px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+/* ymko@skku.edu */
+
+#email2{position: absolute;
+width: 193px;
+height: 24px;
+left: 632px;
+top: 819px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #000000;}
+
+
+
+/* 호암관 7층 50701호실 */
+
+#location2{position: absolute;
+width: 193px;
+height: 24px;
+left: 632px;
+top: 851px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+/* [관심분야] */
+
+#int2{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 595px;
+    top: 901px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #333232;}
+    
+    
+/* : 메타데이터, 정보문해, 디지털 인문학 */
+    
+#int_content2{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 596px;
+    top: 929px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;}
+
+
+
+
+
+
+/* 김장현 교수님 사진 */
+
+#box3{position: absolute;
+width: 272px;
+height: 374px;
+left: 1008px;
+top: 321px;
+
+background: #D9D9D9;}
+
+/* 교수 | 소셜네트워크, 소셜미디어 */
+
+#position3{position: absolute;
+width: 300px;
+height: 25px;
+left: 1008px;
+top: 705px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+color: #787474;}
+
+
+/* 김장현 */
+
+#name3{position: absolute;
+width: 114px;
+height: 42px;
+left: 1007px;
+top: 730px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* 02-740-1868 */
+
+#phone3{position: absolute;
+width: 238px;
+height: 20px;
+left: 1052px;
+top: 794px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+/* aloha@skku.edu */
+    
+#email3{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 1052px;
+    top: 819px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+
+
+/* 국제관 3층 90324호실 */
+
+#location3{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 1053px;
+    top: 851px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;}
+
+
+/* [관심분야] */
+
+#int3{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 1014px;
+    top: 896px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #333232;}
+    
+    
+/* : Social/Semantic Network Data Analysis, IT Leadership Future Media */
+    
+#int_content3{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 1015px;
+    top: 924px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;}
+
+
+
+
+
+/* 김재광 교수님 사진 */
+
+#box4{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 189px;
+    top: 1089px;
+    
+    background: #D9D9D9;}
+    
+/* 조교수 | 인공지능 */
+    
+#position4{position: absolute;
+    width: 300px;
+    height: 25px;
+    left: 189px;
+    top: 1473px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 김재광 */
+    
+#name4{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 188px;
+    top: 1498px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+    
+/* free-icon-old-phone-3869717 4 */
+    
+#phone_image4{position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 189px;
+    top: 1558px;
+        
+    background: url(free-icon-old-phone-3869717.png);}
+    
+    
+/* 031-299-6491 */
+    
+#phone4{position: absolute;
+    width: 238px;
+    height: 20px;
+    left: 227px;
+    top: 1560px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+
+/* linux@skku.edu */
+    
+#email4{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 226px;
+    top: 1585px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+    
+    
+/* 호암관 8층 50806호실 */
+    
+#location4{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 225px;
+    top: 1616px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int4{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 189px;
+    top: 1661px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : 인공지능 추천/예측 시스템, 패턴 인식, 의료 인공지능 */
+        
+#int_content4{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 189px;
+    top: 1689px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}
+
+
+
+
+
+/* 류은석 교수님 사진 */
+
+#box5{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 593px;
+    top: 1089px;
+    
+    background: #D9D9D9;}
+    
+/* 부교수 | VR/AR/XR Systems, Operating Systems */
+    
+#position5{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 594px;
+    top: 1473px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 류은석 */
+    
+#name5{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 592px;
+    top: 1498px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+    
+/* free-icon-old-phone-3869717 5 */
+    
+#phone_image5{position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 595px;
+    top: 1558px;
+        
+    background: url(free-icon-old-phone-3869717.png);}
+    
+    
+/* 02-760-0677 */
+    
+#phone5{position: absolute;
+    width: 238px;
+    height: 20px;
+    left: 633px;
+    top: 1560px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* esryu@skku.edu */
+    
+#email5{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 632px;
+    top: 1585px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+    
+    
+/* 호암관 8층 50806호실 */
+    
+#location5{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 631px;
+    top: 1616px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int5{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 594px;
+    top: 1661px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : Operating Systems, Multimedia Computing Systems, Virtual Reality */
+        
+#int_content5{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 595px;
+    top: 1689px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}
+    
+
+
+
+
+
+
+/* 무함마드칸 교수님 사진 */
+
+#box6{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 1008px;
+    top: 1089px;
+    
+    background: #D9D9D9;}
+    
+/* 조교수 | Computer Vision */
+    
+#position6{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 1008px;
+    top: 1473px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 무함마드 칸 */
+    
+#name6{position: absolute;
+    width: 300px;
+    height: 42px;
+    left: 1007px;
+    top: 1498px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+    
+    
+/* khanmuhanmmad@skku.edu */
+    
+#email6{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 1047px;
+    top: 1555px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+        
+    
+/* 국제관 3층 90326호실 */
+    
+#location6{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 1048px;
+    top: 1583px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+
+
+
+
+
+/* 박은일 교수님 사진 */
+
+#box7{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 189px;
+    top: 1879px;
+    
+    background: #D9D9D9;}
+    
+/* 부교수 | 인공지능활용, 데이터과학, 사용자 경험 */
+    
+#position7{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 189px;
+    top: 2263px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 박은일 */
+    
+#name7{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 189px;
+    top: 2288px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+
+    
+/* 02-740-1864 */
+    
+#phone7{position: absolute;
+    width: 238px;
+    height: 20px;
+    left: 224px;
+    top: 2352px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* eunilpark@skku.edu */
+    
+#email7{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 224px;
+    top: 2380px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+
+        
+    
+/* 국제관 3층 90310호실 */
+    
+#location7{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 224px;
+    top: 2409px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int7{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 189px;
+    top: 2459px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : 데이터과학 전분야 및 데이터 분석 방안 등 */
+        
+#int_content7{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 189px;
+    top: 2487px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}
+
+
+
+
+/* 오하영 교수님 사진 */
+
+#box8{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 593px;
+    top: 1879px;
+    
+    background: #D9D9D9;}
+    
+/* 부교수 | 소셜정보망 및 데이터분석 */
+    
+#position8{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 594px;
+    top: 2263px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 오하영 */
+    
+#name8{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 593px;
+    top: 2288px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+    
+
+/* hyoh79@skku.edu */
+    
+#email8{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 628px;
+    top: 2348px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+        
+    
+/* 국제관 3층 90342호실 */
+    
+#location8{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 628px;
+    top: 2379px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int8{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 593px;
+    top: 2429px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : 소셜정보망 분석, 추천시스템, 데이터분석 및 인공지능 */
+        
+#int_content8{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 593px;
+    top: 2460px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}
+
+
+
+
+
+/* 이대호 교수님 사진 */
+
+#box9{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 1007px;
+    top: 1879px;
+    
+    background: #D9D9D9;}
+    
+/* 부교수 | 인터넷사용자분석 */
+    
+#position9{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 1008px;
+    top: 2263px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 이대호 */
+    
+#name9{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 1007px;
+    top: 2288px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+    
+
+/* 02-740-0683 */
+    
+#phone9{position: absolute;
+    width: 238px;
+    height: 20px;
+    left: 1043px;
+    top: 2352px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+
+    
+/* daeho.lee@skku.edu */
+    
+#email9{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 1043px;
+    top: 2380px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+        
+    
+/* 국제관 3층 90325호실 */
+    
+#location9{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 1043px;
+    top: 2409px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int9{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 1007px;
+    top: 2459px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : 인공지능, 인터넷 플랫폼 등의 사용자 분석과 서비스 전략 수립 */
+        
+#int_content9{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 1007px;
+    top: 2487px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}
+
+
+
+
+
+
+/* 이용정 교수님 사진 */
+
+#box10{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 178px;
+    top: 2647px;
+    
+    background: #D9D9D9;}
+    
+/* 부교수 | 건강정보행위 */
+    
+#position10{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 177px;
+    top: 3031px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 이용정 */
+    
+#name10{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 178px;
+    top: 3056px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+    
+    
+/* 02-760-0259 */
+    
+#phone10{position: absolute;
+    width: 238px;
+    height: 20px;
+    left: 215px;
+    top: 3120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+
+    
+    
+/* redpapa01@skku.edu */
+    
+#email10{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 214px;
+    top: 3145px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+    
+    
+/* 교수회관 5층 40514호실 */
+    
+#location10{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 214px;
+    top: 3177px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int10{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 177px;
+    top: 3227px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : 건강 및 의학정보학, 건강문해 */
+        
+#int_content10{position: absolute;
+    width: 275px;
+    height: 31px;
+    left: 178px;
+    top: 3255px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}
+
+
+
+
+
+/* 정종필 교수님 사진 */
+
+#box11{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 592px;
+    top: 2647px;
+    
+    background: #D9D9D9;}
+    
+/* 부교수 | Manufacturing Data Based AI */
+    
+#position11{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 594px;
+    top: 3031px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 정종필 */
+    
+#name11{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 594px;
+    top: 3056px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+
+    
+/* 031-299-4267 */
+    
+#phone11{position: absolute;
+    width: 238px;
+    height: 20px;
+    left: 633px;
+    top: 3120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+
+    
+/* jpjeong@skku.edu */
+    
+#email11{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 634px;
+    top: 3145px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+    
+        
+/* 제2공학관27동 5층 27519C호실 */
+    
+#location11{position: absolute;
+    width: 500px;
+    height: 24px;
+    left: 632px;
+    top: 3177px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int11{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 595px;
+    top: 3227px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : 스마트팩토리, Industrial AI, Anomaly detection */
+        
+#int_content11{position: absolute;
+    width: 300px;
+    height: 31px;
+    left: 595px;
+    top: 3255px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}
+
+
+
+
+
+/* 한진영 교수님 사진 */
+
+#box12{position: absolute;
+    width: 272px;
+    height: 374px;
+    left: 1007px;
+    top: 2647px;
+    
+    background: #D9D9D9;}
+    
+/* 부교수 | Machine Learning, Social Computing */
+    
+#position12{position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 1006px;
+    top: 3031px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #787474;}
+    
+/* 한진영 */
+    
+#name12{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 1005px;
+    top: 3056px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+    
+    
+/* 02-740-1797 */
+    
+#phone12{position: absolute;
+    width: 238px;
+    height: 20px;
+    left: 1044px;
+    top: 3120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* jinyounghan@skku.edu */
+    
+#email12{position: absolute;
+    width: 193px;
+    height: 24px;
+    left: 1043px;
+    top: 3145px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    
+    color: #000000;}
+        
+    
+/* 국제관 3층 90311호실 */
+    
+#location12{position: absolute;
+    width: 500px;
+    height: 24px;
+    left: 1043px;
+    top: 3177px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;}
+    
+    
+/* [관심분야] */
+    
+#int12{position: absolute;
+    width: 232px;
+    height: 26px;
+    left: 1006px;
+    top: 3227px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+        
+    color: #333232;}
+        
+        
+/* : Data Science, Machine Learning, Networks, Computational Social Science, Artificial Intelligence */
+        
+#int_content12{position: absolute;
+    width: 300px;
+    height: 31px;
+    left: 1007px;
+    top: 3255px;
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+        
+    color: #000000;}

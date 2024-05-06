@@ -1,0 +1,249 @@
+/* 현주 - Research - 프로젝트 */
+
+body{
+    margin:0px;
+    position: absolute;
+    width: 1440px;
+    height: 1024px+561px+418px; /*헤더+본문+푸터*/
+    background: #E6E6E6;
+    }
+    
+    article{position: relative;
+        width: 1440px;
+        height: 1024px;
+        top:561px; 
+        overflow: scroll;
+    }
+
+
+/* 프로젝트 */
+
+h1{position: absolute;
+width: 220px;
+height: 52px;
+left: 610px;
+top: 97px;
+
+font-family: 'Inter';
+font-weight: 900;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+
+color: #000000;}
+
+
+
+/* Project */
+
+h5{position: absolute;
+width: 66px;
+height: 24px;
+left: 687px;
+top: 163px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;}
+
+
+
+/* 프로젝트 1 */
+
+#box1{position: absolute;
+width: 1142px;
+height: 316px;
+left: calc(50% - 1142px/2 - 4px);
+top: 282px;
+
+background: #D9D9D9;}
+
+
+/* 사진 1 */
+
+#image1{position: absolute;
+width: 260px;
+height: 260px;
+left: 180px;
+top: 311px;
+
+background: #8F8F8F;}
+
+
+/* 김장현 글로벌융합학부장, ‘융합은 용기다’ 기고 */
+
+#title1{position: absolute;
+width: 754px;
+height: 81px;
+left: 483px;
+top: 325px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+
+/* 2023-05-23 */
+
+#date1{position: absolute;
+width: 128px;
+height: 27px;
+left: 483px;
+top: 392px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #585353;}
+
+
+/* 2023-2학기 글로벌융합학부 소속 융합전공 진입신청 공고를 다음과 같이 하오니, 융합전공 진입머하여튼 어ㅓㅓㅓㅓㅓㅓㅓㅓㅓ쩌구 저ㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓ */
+
+#content1{position: absolute;
+width: 772px;
+height: 108px;
+left: 483px;
+top: 441px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #000000;}
+
+
+
+
+/* 프로젝트 2 */
+
+#box2{position: absolute;
+width: 1142px;
+height: 316px;
+left: calc(50% - 1142px/2 - 4px);
+top: 654px;
+
+background: #D9D9D9;}
+
+
+/* 사진 2 */
+
+#image2{position: absolute;
+width: 260px;
+height: 260px;
+left: 180px;
+top: 683px;
+
+background: #8F8F8F;}
+
+
+/* 김장현 글로벌융합학부장, ‘융합은 용기다’ 기고 */
+
+#title2{position: absolute;
+width: 754px;
+height: 81px;
+left: 483px;
+top: 697px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+
+/* 2023-05-23 */
+
+#date2{position: absolute;
+width: 128px;
+height: 27px;
+left: 483px;
+top: 764px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #585353;}
+
+
+
+/* 2023-2학기 글로벌융합학부 소속 융합전공 진입신청 공고를 다음과 같이 하오니, 융합전공 진입머하여튼 어ㅓㅓㅓㅓㅓㅓㅓㅓㅓ쩌구 저ㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓ */
+
+#content2{position: absolute;
+width: 772px;
+height: 108px;
+left: 483px;
+top: 813px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #000000;}
+
+
+
+/* Rectangle 29 */
+
+#button{position: absolute;
+width: 242px;
+height: 48px;
+left: 595px;
+top: 1071px;
+
+background: #8F8F8F;}
+
+
+/* Learn More */
+
+.button{position: absolute;
+width: 170px;
+height: 50px;
+left: 632px;
+top: 1069px;
+text-decoration: none;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;}

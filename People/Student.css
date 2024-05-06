@@ -1,0 +1,586 @@
+/* 현주 - People - 학생소개 */
+
+body{
+    margin:0px;
+    position: absolute;
+    width: 1440px;
+    height: 2003px; /*헤더+본문+푸터*/
+    background: #E6E6E6;
+    }
+
+
+article{position: relative;
+        width: 1440px;
+        height: 1024px;
+        top:561px; 
+        overflow: scroll;
+    }
+
+/* 학생 소개 */
+
+h1{
+    position: absolute;
+width: 300px;
+height: 52px;
+left: 580px;
+top: 97px;
+
+font-family: 'Inter';
+font-weight: 900;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+
+color: #000000;}
+
+
+
+/* Students */
+
+h5{position: absolute;
+width: 84px;
+height: 24px;
+left: 686px;
+top: 163px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;}
+
+
+
+/* 황새연 학생 사진 */
+
+#box1{position: absolute;
+width: 232px;
+height: 259px;
+left: 144px;
+top: 328px;
+
+background: #D9D9D9;}
+
+
+
+/* 황새연 */
+
+#name1{position: absolute;
+width: 114px;
+height: 42px;
+left: 145px;
+top: 601px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+
+/* [관심분야] : 강화학습 */
+
+#int1{position: absolute;
+width: 226px;
+height: 57px;
+left: 150px;
+top: 649px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+/* saeyeon@g.skku.edu */
+
+#email1{position: absolute;
+width: 193px;
+height: 24px;
+left: 183px;
+top: 720px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+/* 신현주 학생 사진 */
+
+#box2{position: absolute;
+width: 232px;
+height: 259px;
+left: 448px;
+top: 328px;
+
+background: #D9D9D9;}
+
+
+/* 신현주 */
+
+#name2{position: absolute;
+width: 114px;
+height: 42px;
+left: 448px;
+top: 601px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* [관심분야] : 컴퓨터비전 */
+
+#int2{position: absolute;
+width: 211px;
+height: 57px;
+left: 453px;
+top: 649px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+
+/* hyunju@g.skku.edu */
+
+#email2{position: absolute;
+width: 193px;
+height: 18px;
+left: 485px;
+top: 720px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+
+
+/* Rectangle 5 */
+
+#box3{position: absolute;
+width: 232px;
+height: 259px;
+left: 757px;
+top: 328px;
+
+background: #D9D9D9;}
+
+
+/* 이해민 */
+
+#name3{position: absolute;
+width: 114px;
+height: 42px;
+left: 757px;
+top: 601px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* haemin@skku.edu */
+
+#email3{position: absolute;
+width: 193px;
+height: 24px;
+left: 796px;
+top: 720px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+
+/* [관심분야] : 데이터 사이언스 */
+
+#int3{position: absolute;
+width: 227px;
+height: 57px;
+left: 762px;
+top: 649px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+
+/* 노하연 학생 사진 */
+
+#box4{position: absolute;
+width: 232px;
+height: 259px;
+left: 1064px;
+top: 328px;
+
+background: #D9D9D9;}
+
+
+/* 노하연 */
+
+#name4{position: absolute;
+width: 114px;
+height: 42px;
+left: 1066px;
+top: 601px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+
+/* [관심분야] : 자연어 처리 */
+
+#int4{position: absolute;
+width: 225px;
+height: 57px;
+left: 1071px;
+top: 649px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+/* hayeon@g.skku.edu */
+
+#email4{position: absolute;
+width: 193px;
+height: 24px;
+left: 1103px;
+top: 720px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;}
+
+
+
+/* 오수정 학생 사진 */
+
+#box5{position: absolute;
+width: 232px;
+height: 259px;
+left: 144px;
+top: 893px;
+
+background: #D9D9D9;}
+
+
+/* 오수정 */
+
+#name5{position: absolute;
+    width: 114px;
+    height: 42px;
+    left: 145px;
+    top: 1166px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 35px;
+    line-height: 42px;
+    
+    color: #000000;}
+
+
+
+/* [관심분야] : 이상치 탐지 */
+
+#int5{position: absolute;
+    width: 211px;
+    height: 57px;
+    left: 150px;
+    top: 1214px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #333232;}
+
+
+
+/* alohakim@skku.edu */
+
+#email5{position: absolute;
+width: 193px;
+height: 24px;
+left: 181px;
+top: 1286px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #000000;}
+
+
+
+/* 배상윤 학생 사진 */
+
+#box6{position: absolute;
+width: 232px;
+height: 259px;
+left: 448px;
+top: 893px;
+
+background: #D9D9D9;}
+
+
+/* 배상윤 */
+
+#name6{position: absolute;
+width: 114px;
+height: 42px;
+left: 448px;
+top: 1166px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* [관심분야] : 이상치 탐지 */
+
+#int6{position: absolute;
+width: 211px;
+height: 57px;
+left: 453px;
+top: 1214px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+/* 배상윤@skku.edu */
+
+#email6{position: absolute;
+width: 193px;
+height: 24px;
+left: 485px;
+top: 1286px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #000000;}
+
+
+
+
+/* 신예은 학생 사진 */
+
+#box7{position: absolute;
+width: 232px;
+height: 259px;
+left: 757px;
+top: 893px;
+
+background: #D9D9D9;}
+
+
+/* 신예은 */
+
+#name7{position: absolute;
+width: 114px;
+height: 42px;
+left: 757px;
+top: 1166px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* [관심분야] : 인공지능 마케팅 */
+
+#int7{position: absolute;
+width: 227px;
+height: 57px;
+left: 762px;
+top: 1214px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+/* alohakim@skku.edu */
+
+#email7{position: absolute;
+width: 193px;
+height: 24px;
+left: 796px;
+top: 1286px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #000000;}
+
+
+
+/* 최지애 학생 사진 */
+
+#box8{position: absolute;
+    width: 232px;
+    height: 259px;
+    left: 1064px;
+    top: 893px;
+    
+    background: #D9D9D9;}
+    
+
+/* [관심분야] : 의료 인공지능 */
+
+#int8{position: absolute;
+width: 226px;
+height: 57px;
+left: 150px;
+top: 1214px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+/* 최지애 */
+
+#name8{position: absolute;
+width: 114px;
+height: 42px;
+left: 1066px;
+top: 1166px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;}
+
+
+/* [관심분야] : 파이낸셜 인텔리젼스 */
+
+#int8{position: absolute;
+width: 225px;
+height: 57px;
+left: 1071px;
+top: 1214px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333232;}
+
+
+/* 최지애@g.skku.edu */
+
+#email8{position: absolute;
+width: 193px;
+height: 24px;
+left: 1103px;
+top: 1286px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #000000;}
